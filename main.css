@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap"); /*font-family: 'Heebo', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap"); /*font-family: 'Heebo', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 70px;
+  background: #373d39;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header a {
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+}
+header a:hover {
+  margin-left: 20px;
+  background-color: white;
+  color: #373d39;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-shadow: black 1px 1px;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textbox > p {
+  padding: 20px;
+  border: 5px solid #373d39;
+  margin: 8px;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+
+a:hover {
+  background-color: #373d39;
+  color: white;
+  border: 1px solid white;
+  text-shadow: black 1px 1px;
+  transition: 0.5s;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 90%;
+  min-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navContainer {
+  width: 100%;
+  height: 50px;
+  background-color: #373d39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.navContainer button {
+  width: 15%;
+  height: 50px;
+  border: none;
+  background-color: #373d39;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.navContainer button:hover {
+  background-color: whitesmoke;
+  color: #373d39;
+}
+
+footer {
+  background-color: #373d39;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer a {
+  font-size: 26px;
+  color: antiquewhite;
+  font-family: "Heebo", sans-serif;
+}
+footer a:hover {
+  background-color: antiquewhite;
+  color: #373d39;
+}
+
+@media (max-width: 992px) {
+  body {
+    width: 145%;
+  }
+}/*# sourceMappingURL=main.css.map */
